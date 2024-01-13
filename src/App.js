@@ -4,6 +4,8 @@ import Body from './components/Body';
 import store from './utils/store';
 import Header from './components/Header.js';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import MainConatiner from './components/MainConatiner.js';
+import { WatchPage } from './components/WatchPage.js';
 
 const appRouter=createBrowserRouter([{
   path:'/',
