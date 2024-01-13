@@ -14,8 +14,8 @@ const appRouter=createBrowserRouter([{
     element:<MainConatiner/>
     },
     {
-      path:'watch'
-      
+      path:'watch',
+      element:<WatchPage/>
     }
 
   ]
