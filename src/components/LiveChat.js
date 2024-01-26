@@ -1,5 +1,10 @@
 import React from "react";
+import { ChatMessages } from "./ChatMessages";
 
 export const LiveChat = () => {
-  return <div>LiveChat</div>;
+  return (
+    <div>
+      <ChatMessages />
+    </div>
+  );
 };
